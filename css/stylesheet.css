@@ -1,6 +1,45 @@
-.jumbotron{
-    float: center;
+
+/* //sticky header */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.skyline{
+    position: absolute;
+    max-width: 150%;
+    height: 100%;
+  
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  font: sans-serif;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
 
 .vertical-menu {
     width: 1140px; /* Set a width if you like */
