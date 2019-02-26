@@ -47,7 +47,8 @@ body {
 
 
 .vertical-menu {
-    width: 1140px; /* Set a width if you like */
+    width: 80%; /* Set a width if you like */
+    padding-left: 120px;
   }
   
   .vertical-menu a {
@@ -63,6 +64,6 @@ body {
   }
   
   .vertical-menu a.active {
-    background-color: rgb(62, 47, 126); /* Add a green color to the "active/current" link */
+    background-color: black; /* Add a green color to the "active/current" link */
     color: white;
   }
