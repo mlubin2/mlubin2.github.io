@@ -13,16 +13,20 @@ body {
 }
 
 .top-container {
-  background-color: #f1f1f1;
-  padding: 30px;
+  background-color: black;
+  padding-top: 30;
   text-align: center;
+
 }
 
 .header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
+  padding: 8px 20px;
+  background: black;
+  color: lightslategrey;
   font: sans-serif;
+  font-size: 15px;
+  text-align: left;
+
 }
 
 .content {
@@ -33,6 +37,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  padding: 8px 20px;
 }
 
 .sticky + .content {
